@@ -39,10 +39,10 @@ action: "GET" location: /students/new
 -	The controller method will be named ‘new,’ and the action performed will create a form allowing a user to enter student information before utilizing the create method.
 
 action: "GET" location: /students/2
--	The controller method will be named ‘edit,’ and the action performed will create a form that allows the user to edit a particular student object based on the primary key provided.
+-	The controller method will be named ‘show,’ and the action performed will allow the user to see a particular object in the Student table when the applicable primary key is provided.
 
 action: "GET" location: /students/2/edit
--	The controller method will be named ‘show,’ and the action performed will allow the user to see a particular object in the Student table when the applicable primary key is provided.
+-	The controller method will be named ‘edit,’ and the action performed will create a form that allows the user to edit a particular student object based on the primary key provided.
 
 action: "PATCH" location: /students/2
 -	The controller method will be named ‘update,’ and the action performed will update a particular object based on the edit form information edits the user entered in the edit method.
